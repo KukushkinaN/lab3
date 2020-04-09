@@ -1,0 +1,9 @@
+FROM debian
+MAINTAINER Kukushkina Nadezhda
+RUN apt update
+RUN apt install sudo
+RUN apt install vim
+RUN apt install fasm
+RUN apt install binutils
+RUN apt install gcc
+RUN apt install g++
